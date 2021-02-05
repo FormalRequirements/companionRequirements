@@ -6,27 +6,22 @@
 :organization: IRIT/CNRS - University of Toulouse, France
 :icons: font
 :companion: https://formalrequirements.github.io/requirements-handbook
-:handbook: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
+:HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
 :companionGit: https://github.com/FormalRequirements/requirements-handbook
-
 = {title}
 {author},{email}
 {version} -- {localdate}
 
-:numbered!:
-:final!:
-
+[NOTE]
+====
 This document constitutes the requirements book of the {companion}[Requirements Handbook Companion].
-It follows the method presented in the {handbook}[Requirements Handbook].
+It follows the method presented in the {HandbookPDF}[Handbook of requirements and business analysis].
 It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_Asciidoc_template_for_PEGS/templates/asciidoc/book.adoc[here].
+====
 
 == Process
 
-ifndef::final[NOTE: This book is about...]
-
 === P.1 Responsibilities
-
-ifndef::final[NOTE: This book is about...]
 
 === P.2 Imposed technical choices
 
@@ -34,7 +29,7 @@ ifndef::final[NOTE: This book is about...]
 
 === P.4 List of tasks
 
-=== P.5 Schedule, milestones and deliverables
+=== P.5 Schedule, milestones, and deliverables
 
 === P.6 Individual task descriptions
 
@@ -42,34 +37,81 @@ ifndef::final[NOTE: This book is about...]
 
 == Environment
 
+=== E.1 Glossary
+
+:companion: <<companion, Companion Book>>
+:handbook:  <<handbook, Handbook>>
+
+[[companion]]
+{companion}:: The _system_ to be developed.  
+
+[[handbook]]
+{handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the {companion} serves as a complementary material.
+
+=== E.2 Components
+
+=== E.3 Constraints
+
+=== E.4 Assumptions
+
+=== E.5 Effects
+
+=== E.6 Invariants
+
+
 == Goals
+
+=== G.1 Overall context and goals
+
+=== G.2 Current situation
+
+=== G.3 Expected benefits 
+
+=== G.4 System overview
+
+The _system_ to be developed in this specification is an unusual one: a book!
+It will serve as a companion for the {handbook}.
+
+=== G.5 Limitations and exclusions 
+
+=== G.6 Stakeholders
+
+Here is a non-exhaustive list of the stakeholders.
+
+//----------------------------------------------
+.Target side stakeholders
+[cols="1,1,3",,options="header"]
+|===
+| Stakeholder | Category | Comment 
+//----------------------------------------------
+| Springer | Legal department | In charge of the edition of the {companion}
+| Reader of the {handbook} | User | A reader of the main {handbook} that might need additional information about the method
+| Reader of the {companion} | User | A reader of the {companion} who might not have access to the main {handbook}
+|=== 
+//----------------------------------------------
+
+//----------------------------------------------
+.Production side stakeholders
+[cols="1,1,3",,options="header"]
+|===
+| Stakeholder | Category | Comment 
+//----------------------------------------------
+| Bertrand Meyer | Domain Expert | Author of the {handbook}, and main evaluator of the {companion}
+| Jean-Michel Bruel | Project Manager | Author and effort leader of the {companion}
+|===
+//----------------------------------------------
+
+=== G.7 Requirements sources
 
 == System
 
-This is an example of incomplete requirement.
+=== S.1 List of components
 
-.TBD
-[%collapsible]
-====
-WARNING: This is a **T**o **B**e **D**etermined element. Please fill the following elements.
+=== S.2 Provided functionality
 
-Author:: 
-`[Name of author declaring the property “tbd”]`
+=== S.3 Provided interfaces
 
-Initial Date:: 
-`[Date the property was found to be “tbd”]`
+=== S.4 Example scenarios
 
-Due Date:: 
-`[Date or project phase by which the indetermination should be resolved]`
+=== S.5 Prioritization
 
-Importance of resolving it:: 
-`[show-stopper / serious / desirable]`
-
-What will be needed to resolve it::
-[%interactive]
-- [ ] stakeholders to ask; 
-- [ ] documentation to consider; 
-- [ ] management decision (by whom?)
-  
-[Remember to update the list of TBDs if needed]
-====
