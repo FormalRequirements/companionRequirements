@@ -1,0 +1,46 @@
+= Handbook Companion' Requirements 
+//------------------------- configuration
+:imagesdir: images
+:icons: font
+:toc:
+:numbered:
+:favicon: images/pegs.png
+
+:method: pass:[<b>PEGS</b>]
+:hb-pdf: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
+:hb-title: Handbook of requirements and business analysis
+:hb-url: http://requirements-handbook.org/
+:cb-url: https://docs.google.com/document/d/1HrWCRzyW_iTf1QXFFzEoDvvc66IzMCDb3uXGS5GRWz8/edit?usp=sharing
+:github-repo: https://github.com/FormalRequirements/companionRequirements
+:github-io: https://FormalRequirements.github.io/companionRequirements
+
+// icons for GitHub
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+//-------------------------------------
+
+ifndef::pdf-backend[]
+//------------------------------------ Badges --------
+//image:https://github.com/FormalRequirements/requirements-handbook/workflows/Check%20Markdown%20links/badge.svg[Check Markdown links,link="https://github.com/FormalRequirements/requirements-handbook/actions"]
+image:https://img.shields.io/badge/License-MIT-yellow.svg[License: MIT, link="https://opensource.org/licenses/MIT"]
+image:https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod[Gitpod ready-to-code ,link="https://gitpod.io/#https://github.com/FormalRequirements/companionRequirements"]
+image:https://img.shields.io/badge/PDF-Download-blue[PDF download,link="https://github.com/FormalRequirements/requirements-handbook/blob/main/main.pdf"]
+
+//------------------------------------ Badges --------
+endif::[]
+
+WARNING: Work in progress!
+
+This repository constitutes the requirements written to write the companion of the book: link:{hb-pdf}[{hb-title}].
+It serves as an example content for the future Handbook's site: {hb-url}
+
+The requirements book can be found in several forms:
+
+- The requirements themselves in plain text (link:main.adoc[])
+- The corresponding PDF generated version (link:main.pdf[])
+- The corresponding HTML generated version ({github-io})
