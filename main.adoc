@@ -96,7 +96,7 @@ In addition, here is the list of significations for the icons used when tracing 
 .{check} Corresponding Artifact
 [%collapsible]
 ====
-{companionURL}/#5-book-templates
+{companionURL}/#_book_templates
 ====
 
 === G.4 System overview
