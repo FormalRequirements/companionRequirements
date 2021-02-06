@@ -5,12 +5,22 @@
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France
 :icons: font
-:companion: https://formalrequirements.github.io/requirements-handbook
-:HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
-:companionGit: https://github.com/FormalRequirements/requirements-handbook
-= {title}
+{title}
 {author},{email}
 {version} -- {localdate}
+
+//--------------------------- Glossary & Definitions
+// URLS
+:companionURL: https://formalrequirements.github.io/requirements-handbook
+:HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
+:companionGit: https://github.com/FormalRequirements/requirements-handbook
+// ICONS
+:check: icon:check-circle[]
+:bug: icon:bug[]
+:missing: icon:times-circle[]
+// GLOSSARY ENTRIES
+:companion: <<companion, Companion Book>>
+:handbook:  <<handbook, Handbook>>
 
 [NOTE]
 ====
@@ -39,14 +49,27 @@ It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_As
 
 === E.1 Glossary
 
-:companion: <<companion, Companion Book>>
-:handbook:  <<handbook, Handbook>>
+In this section, we define the domain-specific terms used in this document.
 
 [[companion]]
 {companion}:: The _system_ to be developed.  
 
 [[handbook]]
 {handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the {companion} serves as a complementary material.
+
+In addition, here is the list of significations for the icons used when tracing the corresponding artifacts:
+
+//----------------------------------------------
+.Icons signification
+[cols="1,7",options="header"]
+|===
+| Icon | Signification
+//----------------------------------------------
+| {check}  | A precisely referenced artifact satisfying the requirement
+| {bug}    | An artifact not yet fully functional
+| {missing}| No corresponding artifact yet (requirement not satisfied)
+|=== 
+//----------------------------------------------
 
 === E.2 Components
 
@@ -67,6 +90,15 @@ It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_As
 
 === G.3 Expected benefits 
 
+[[g31]]
+. <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
++
+.{check} Corresponding Artifact
+[%collapsible]
+====
+{companionURL}/#5-book-templates
+====
+
 === G.4 System overview
 
 The _system_ to be developed in this specification is an unusual one: a book!
@@ -85,8 +117,8 @@ Here is a non-exhaustive list of the stakeholders.
 | Stakeholder | Category | Comment 
 //----------------------------------------------
 | Springer | Legal department | In charge of the edition of the {companion}
-| Reader of the {handbook} | User | A reader of the main {handbook} that might need additional information about the method
-| Reader of the {companion} | User | A reader of the {companion} who might not have access to the main {handbook}
+| Readers of the {handbook} | User | Readers of the main {handbook} that might need additional information about the method
+| [[readerC]]Readers of the {companion} | User | Person reading the {companion} who might not have access to the main {handbook}
 |=== 
 //----------------------------------------------
 
