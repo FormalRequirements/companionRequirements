@@ -1,18 +1,22 @@
 #-----------------------------------------------------
 # Some usefull instructions...
 #
+BOOKS = goals.adoc environment.adoc process.adoc system.adoc
 #-----------------------------------------------------
 
 all: main.pdf index.html 
 
-index.html: main.adoc
+# main.adoc: main-template.adoc $(BOOKS)
+# 	mvn asciidoc-template::build
+
+index.html: main.adoc $(BOOKS)
 	asciidoctor -a toc=left -o index.html $<
 
 %.html: %.adoc 
 	asciidoctor -a toc=left $<
 
-%.pdf: %.adoc 
-	asciidoctor-pdf -a pdf-backend  $<
+main.pdf: main.adoc $(BOOKS)
+	asciidoctor-pdf -a toc=2 -a pdf-backend  main.adoc
 
 clean:
 	rm *.html

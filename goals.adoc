@@ -9,15 +9,11 @@
 [[g31]]
 . <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
 +
-.{check} Corresponding Artifact
-[%collapsible]
-====
-{companionURL}/#_book_templates
-====
+{check} {companionURL}/#_book_templates[Corresponding Artifact]
 
 === G.4 System overview
 
-The _system_ to be developed in this specification is an unusual one: a book!
+The _system_ under development in this specification is an unusual one: a book!
 It will serve as a companion for the {Handbook}.
 
 === G.5 Limitations and exclusions 
