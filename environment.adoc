@@ -1,0 +1,35 @@
+== Environment
+
+=== E.1 Glossary
+
+In this section, we define the domain-specific terms used in this document.
+
+[[companion]]
+{companion}:: The _system_ to be developed.  
+
+[[Handbook]]
+{Handbook}:: The book, entitled "Handbook of requirements and business analysis"; written by Bertrand Meyer (see PDF {HandbookPDF}[here]); and for which the {companion} serves as complementary material.
+
+Besides, here is the list of significations for the icons used when tracing the corresponding artifacts:
+
+//----------------------------------------------
+.Icons signification
+[cols="1,7",options="header"]
+|===
+| Icon | Signification
+//----------------------------------------------
+| {check}  | A precisely referenced artifact satisfying the requirement
+| {bug}    | An artifact not yet fully functional
+| {missing}| No corresponding artifact yet (requirement not satisfied)
+|=== 
+//----------------------------------------------
+
+=== E.2 Components
+
+=== E.3 Constraints
+
+=== E.4 Assumptions
+
+=== E.5 Effects
+
+=== E.6 Invariants

@@ -21,7 +21,7 @@
 // GLOSSARY ENTRIES
 :jmb: https://jmbruel.netlify.app[{author}]
 :companion: <<companion, Companion Book>>
-:handbook:  <<handbook, Handbook>>
+:Handbook:  <<Handbook, Handbook>>
 
 [NOTE]
 ====
@@ -30,12 +30,16 @@ It follows the method presented in the {HandbookPDF}[Handbook of requirements an
 It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_Asciidoc_template_for_PEGS/templates/asciidoc/book.adoc[here].
 ====
 
+include::goals.adoc[]
+
+include::environment.adoc[]
+
 == Process
 
 === P.1 Responsibilities
 
 [[p11]]
-The writing effort of the {companion} is under the reponsibility of {jmb}.
+The writing effort of the {companion} is under the responsibility of {jmb}.
 
 === P.2 Imposed technical choices
 
@@ -56,95 +60,7 @@ The {companion} should be published in one of the compatible inputs of the publi
 
 === P.7 Requirements process and report
 
-== Environment
 
-=== E.1 Glossary
-
-In this section, we define the domain-specific terms used in this document.
-
-[[companion]]
-{companion}:: The _system_ to be developed.  
-
-[[handbook]]
-{handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the {companion} serves as a complementary material.
-
-In addition, here is the list of significations for the icons used when tracing the corresponding artifacts:
-
-//----------------------------------------------
-.Icons signification
-[cols="1,7",options="header"]
-|===
-| Icon | Signification
-//----------------------------------------------
-| {check}  | A precisely referenced artifact satisfying the requirement
-| {bug}    | An artifact not yet fully functional
-| {missing}| No corresponding artifact yet (requirement not satisfied)
-|=== 
-//----------------------------------------------
-
-=== E.2 Components
-
-=== E.3 Constraints
-
-=== E.4 Assumptions
-
-=== E.5 Effects
-
-=== E.6 Invariants
-
-
-== Goals
-
-=== G.1 Overall context and goals
-
-=== G.2 Current situation
-
-=== G.3 Expected benefits 
-
-[[g31]]
-. <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
-+
-.{check} Corresponding Artifact
-[%collapsible]
-====
-{companionURL}/#_book_templates
-====
-
-=== G.4 System overview
-
-The _system_ to be developed in this specification is an unusual one: a book!
-It will serve as a companion for the {handbook}.
-
-=== G.5 Limitations and exclusions 
-
-=== G.6 Stakeholders
-
-Here is a non-exhaustive list of the stakeholders.
-
-//----------------------------------------------
-.Target side stakeholders
-[cols="1,1,3",,options="header"]
-|===
-| Stakeholder | Category | Comment 
-//----------------------------------------------
-| Springer | Legal department | In charge of the edition of the {companion}
-| Readers of the {handbook} | User | Readers of the main {handbook} that might need additional information about the method
-| [[readerC]]Readers of the {companion} | User | Person reading the {companion} who might not have access to the main {handbook}
-|=== 
-//----------------------------------------------
-
-//----------------------------------------------
-.Production side stakeholders
-[cols="1,1,3",,options="header"]
-|===
-| Stakeholder    | Category | Comment 
-//----------------------------------------------
-| Bertrand Meyer | Domain Expert | Author of the {handbook}, and main evaluator of the {companion}
-| {jmb}          | Project Manager | Author and effort leader of the {companion}
-|===
-//----------------------------------------------
-
-=== G.7 Requirements sources
 
 == System
 

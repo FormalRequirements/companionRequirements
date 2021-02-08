@@ -1,0 +1,52 @@
+== Goals
+
+=== G.1 Overall context and goals
+
+=== G.2 Current situation
+
+=== G.3 Expected benefits 
+
+[[g31]]
+. <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
++
+.{check} Corresponding Artifact
+[%collapsible]
+====
+{companionURL}/#_book_templates
+====
+
+=== G.4 System overview
+
+The _system_ to be developed in this specification is an unusual one: a book!
+It will serve as a companion for the {Handbook}.
+
+=== G.5 Limitations and exclusions 
+
+=== G.6 Stakeholders
+
+Here is a non-exhaustive list of the stakeholders.
+
+//----------------------------------------------
+.Target side stakeholders
+[cols="1,1,3",,options="header"]
+|===
+| Stakeholder | Category | Comment 
+//----------------------------------------------
+| Springer | Legal department | In charge of the edition of the {companion}
+| Readers of the {Handbook} | User | Readers of the main {Handbook} that might need additional information about the method
+| [[readerC]]Readers of the {companion} | User | Person reading the {companion} who might not have access to the main {Handbook}
+|=== 
+//----------------------------------------------
+
+//----------------------------------------------
+.Production side stakeholders
+[cols="1,1,3",,options="header"]
+|===
+| Stakeholder    | Category | Comment 
+//----------------------------------------------
+| Bertrand Meyer | Domain Expert | Author of the {Handbook}, and main evaluator of the {companion}
+| {jmb}          | Project Manager | Author and effort leader of the {companion}
+|===
+//----------------------------------------------
+
+=== G.7 Requirements sources
