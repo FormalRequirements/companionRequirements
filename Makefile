@@ -1,7 +1,7 @@
 #-----------------------------------------------------
 # Some usefull instructions...
 #
-BOOKS = goals.adoc environment.adoc process.adoc system.adoc
+BOOKS = goals.adoc environment.adoc process.adoc system.adoc changelog.adoc
 #-----------------------------------------------------
 
 all: main.pdf index.html 

@@ -1,6 +1,6 @@
 :title: Companion Requirements
 :project: Project
-:version: 1.0
+:version: 1.1
 :author: J.-M. Bruel
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France
@@ -37,6 +37,8 @@ This document constitutes the requirements book of the {companionURL}[Requiremen
 It follows the method presented in the {HandbookPDF}[Handbook of requirements and business analysis].
 It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_Asciidoc_template_for_PEGS/templates/asciidoc/book.adoc[here].
 ====
+
+include::changelog.adoc[]
 
 include::goals.adoc[]
 
