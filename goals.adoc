@@ -1,3 +1,14 @@
+//------------------------------------
+// GOALS book
+//
+// Template for requirement:
+//[[gx-keyword]] 
+//`{counter:goals}`
+// Requirement
+
+// {missing} [Corresponding Artifact]
+//------------------------------------
+
 == Goals
 
 === G.1 Overall context and goals
@@ -6,15 +17,24 @@
 
 === G.3 Expected benefits 
 
-[[g31]]
-. <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
-+
+//---- Requirement
+[[g3-templates]]
+`{counter:goals}`
+<<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
+
 {check} {companionURL}/#_book_templates[Corresponding Artifact]
+//---- 
 
 === G.4 System overview
 
+//---- Requirement
+[[g4-system]]
+`{counter:goals}`
 The _system_ under development in this specification is an unusual one: a book!
 It will serve as a companion for the {Handbook}.
+
+{missing} [Corresponding Artifact]
+//---- 
 
 === G.5 Limitations and exclusions 
 
@@ -40,8 +60,8 @@ Here is a non-exhaustive list of the stakeholders.
 |===
 | Stakeholder    | Category | Comment 
 //----------------------------------------------
-| Bertrand Meyer | Domain Expert | Author of the {Handbook}, and main evaluator of the {companion}
-| {jmb}          | Project Manager | Author and effort leader of the {companion}
+| Author of the Handbook | Domain Expert | Bertrand Meyer, author of the {Handbook}, and main evaluator of the {companion}
+| Author of the Companion Book | Project Manager | {jmb}, author and effort leader of the {companion}
 |===
 //----------------------------------------------
 
