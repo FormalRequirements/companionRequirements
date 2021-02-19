@@ -1,25 +1,24 @@
 == Process
 
-=== P.1 Responsibilities
+=== P.1 Roles
 
 [[p11]]
 The writing effort of the {companion} is under the responsibility of {jmb}.
 
-=== P.2 Imposed technical choices
+=== P.2 Personnel characteristics and constraints
 
-[[p21]]
+=== P.3 Imposed technical choices
+
+[[p31]]
 The {companion} should be written in English.
 
-[[p22]]
+[[p32]]
 The {companion} should be published in one of the compatible inputs of the publisher.
 
+=== P.4 Schedule and milestones
 
-=== P.3 Personnel characteristics and constraints
+=== P.5 Tasks and deliverables
 
-=== P.4 Schedule, milestones, and deliverables
-
-=== P.5 Description of individual steps and tasks
-
-=== P.6 Risks and mitigation analysis
+=== P.6 Risk and mitigation analysis
 
 === P.7 Requirements process and report
