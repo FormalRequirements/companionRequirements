@@ -1,24 +1,100 @@
 == Process
 
+.Front matter
+[TIP]
+====
+// Title (whether or not on a separate title page).
+// Date of current publication and revision history.
+// Table of contents and any other appropriate tables, such as a table of illustrations. (But not the
+// glossary, which is part of the contents, as section E.1.)
+// Copyright notice, distribution information, restrictions on distribution.
+// Approval information. 
+====
+
 === P.1 Roles
 
-[[p11]]
-The writing effort of the {companion} is under the responsibility of {jmb}.
+//---- Requirement
+[[p1-roles]]
+`{counter:process}`
+Here are the roles for the production of the {companion}:
+
+- Leader: The person in charge of leading and organizing the writing effort.
+- Writers: The persons contributing to the writing effort.
+- Reviewers: The persons in charge of reviewing the {companion}.
+
+{check} {companionURL}/#_book_templates[Corresponding Artifact]
 
 === P.2 Personnel characteristics and constraints
 
+//---- Requirement
+[[p1-persons]]
+`{counter:process}`
+Here are the identified people involved in the development of the {companion}:
+
+- Leader: The writing effort of the {companion} is under the responsibility of {jmb}.
+- Writers: In addition to {jmb}, here are the persons involved: {se}, {mn}, {an}, {fg}
+- Reviewers: In addition to {bm}, author of {Handbook}, some reviewers will be found among early adopters of {Handbook}.
+
+//---- TBD: To Be Determined
+.TBD
+[%collapsible]
+====
+Author:: {jmb}
+Date:: 2021-02-21 
+Deadline:: June
+Importance:: serious
+//show-stopper / serious / desirable
+Needs:: 
+- [ ] stakeholders to ask
+- [ ] documentation to consider
+- [x] management decision (by {bm})
+====
+
+{check} {companionURL}/#_book_templates[Corresponding Artifact]
+
 === P.3 Imposed technical choices
 
-[[p31]]
+//---- Requirement
+[[p1-English]]
+`{counter:process}`
 The {companion} should be written in English.
 
-[[p32]]
-The {companion} should be published in one of the compatible inputs of the publisher.
+//---- Requirement
+[[p1-Springer]]
+`{counter:process}`
+The {companion} should be written in one of the compatible inputs of the publisher, Springer.
 
 === P.4 Schedule and milestones
 
+//---- Requirement
+[[p1-date]]
+`{counter:process}`
+The expected date of the {companion} is end of June.
+
 === P.5 Tasks and deliverables
+
+//---- Requirement
+[[p1-repo]]
+`{counter:process}`
+The tasks are managed through the use of a collaborative repository: {companionGit}. 
 
 === P.6 Risk and mitigation analysis
 
+At this point, there is no mitigation analysis.
+
 === P.7 Requirements process and report
+
+The production of the {companion} will not follow a particular requirements process. 
+
+.Back matter
+[TIP]
+====
+// Title (whether or not on a separate title page).
+// Date of current publication and revision history.
+// Table of contents and any other appropriate tables, such as a table of illustrations. (But not the
+// glossary, which is part of the contents, as section E.1.)
+// Copyright notice, distribution information, restrictions on distribution.
+// Approval information. 
+TBD list:: <<p1-persons>>.
+====
+
