@@ -69,7 +69,7 @@ The {companion} should be written in one of the compatible inputs of the publish
 //---- Requirement
 [[p1-date]]
 `{counter:process}`
-The expected date of the {companion} is end of June.
+The expected date of the {companion} is the end of June.
 
 === P.5 Tasks and deliverables
 

@@ -7,7 +7,7 @@
 //----------------------------------------------
 | 1.0 | 2021-02-01 | Initial draft by {jmb}
 | 1.1 | 2021-02-08 | Organization in separate books' files, by {jmb}
-| 1.2 | 2021-02-21 | Writting of the Process book, by {jmb}
+| 1.2 | 2021-02-21 | Writing of the Process book, by {jmb}
 | _{version}_ | _{localdate}_ | _Current PDF version, by {jmb}_
 |=== 
 //----------------------------------------------
