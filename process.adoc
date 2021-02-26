@@ -27,7 +27,7 @@ Here are the roles for the production of the {companion}:
 === P.2 Personnel characteristics and constraints
 
 //---- Requirement
-[[p1-persons]]
+[[p2-persons]]
 `{counter:process}`
 Here are the identified people involved in the development of the {companion}:
 
@@ -50,31 +50,33 @@ Needs::
 - [x] management decision (by {bm})
 ====
 
-{check} {companionURL}/#_book_templates[Corresponding Artifact]
+{missing} [Corresponding Artifact]
 
 === P.3 Imposed technical choices
 
 //---- Requirement
-[[p1-English]]
+[[p3-English]]
 `{counter:process}`
 The {companion} should be written in English.
 
 //---- Requirement
-[[p1-Springer]]
+[[p3-Springer]]
 `{counter:process}`
 The {companion} should be written in one of the compatible inputs of the publisher, Springer.
+
+{missing} [Corresponding Artifact]
 
 === P.4 Schedule and milestones
 
 //---- Requirement
-[[p1-date]]
+[[p4-date]]
 `{counter:process}`
 The expected date of the {companion} is the end of June.
 
 === P.5 Tasks and deliverables
 
 //---- Requirement
-[[p1-repo]]
+[[p4-repo]]
 `{counter:process}`
 The tasks are managed through the use of a collaborative repository: {companionGit}. 
 
@@ -95,6 +97,6 @@ The production of the {companion} will not follow a particular requirements proc
 // glossary, which is part of the contents, as section E.1.)
 // Copyright notice, distribution information, restrictions on distribution.
 // Approval information. 
-TBD list:: <<p1-persons>>.
+TBD list:: <<p2-persons>>.
 ====
 

@@ -1,6 +1,6 @@
 :title: Companion Requirements
 :project: Project
-:version: 1.2
+:version: 1.2.1
 :author: J.-M. Bruel
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France

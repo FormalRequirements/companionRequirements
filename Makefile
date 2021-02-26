@@ -2,6 +2,7 @@
 # Some usefull instructions...
 #
 BOOKS = goals.adoc environment.adoc process.adoc system.adoc changelog.adoc
+DOC = asciidoctor -a allow-uri-read
 #-----------------------------------------------------
 
 all: main.pdf index.html 
@@ -10,13 +11,13 @@ all: main.pdf index.html
 # 	mvn asciidoc-template::build
 
 index.html: main.adoc $(BOOKS)
-	asciidoctor -a toc=left -o index.html $<
+	$(DOC) -a toc=left -o index.html $<
 
 %.html: %.adoc 
-	asciidoctor -a toc=left $<
+	$(DOC) -a toc=left $<
 
 main.pdf: main.adoc $(BOOKS)
-	asciidoctor-pdf -a toc=2 -a pdf-backend  main.adoc
+	asciidoctor-pdf -a allow-uri-read -a toc=2 -a pdf-backend  main.adoc
 
 clean:
 	rm *.html

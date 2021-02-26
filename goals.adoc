@@ -2,16 +2,38 @@
 // GOALS book
 //
 // Template for requirement:
+//---- Requirement
 //[[gx-keyword]] 
-//`{counter:goals}`
+//`{counter:gx}`
 // Requirement
 
 // {missing} [Corresponding Artifact]
+//---- 
 //------------------------------------
 
 == Goals
 
+.Front matter
+[TIP]
+====
+// Title (whether or not on a separate title page).
+// Date of current publication and revision history.
+// Table of contents and any other appropriate tables, such as a table of illustrations. (But not the
+// glossary, which is part of the contents, as section E.1.)
+// Copyright notice, distribution information, restrictions on distribution.
+// Approval information. 
+====
+
 === G.1 Overall context and goals
+
+//---- Requirement
+[[g1-mainGoal]]
+`{counter:g1}`
+The main purpose of the {companion} is to complement the  {Handbook} by providing useful additional material, examples, templates, and full {method} use cases.
+
+{missing} [Corresponding Artifact]
+//---- 
+
 
 === G.2 Current situation
 
@@ -19,7 +41,7 @@
 
 //---- Requirement
 [[g3-templates]]
-`{counter:goals}`
+`{counter:g3}`
 <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
 
 {check} {companionURL}/#_book_templates[Corresponding Artifact]
@@ -29,7 +51,7 @@
 
 //---- Requirement
 [[g4-system]]
-`{counter:goals}`
+`{counter:g3}`
 The _system_ under development in this specification is an unusual one: a book!
 It will serve as a companion for the {Handbook}.
 
@@ -66,3 +88,17 @@ Here is a non-exhaustive list of the stakeholders.
 //----------------------------------------------
 
 === G.7 Requirements sources
+
+Most of the requirements come from the {Handbook}.
+
+.Back matter
+[TIP]
+====
+// Title (whether or not on a separate title page).
+// Date of current publication and revision history.
+// Table of contents and any other appropriate tables, such as a table of illustrations. (But not the
+// glossary, which is part of the contents, as section E.1.)
+// Copyright notice, distribution information, restrictions on distribution.
+// Approval information. 
+TBD list:: <<p1-persons>>.
+====

@@ -446,7 +446,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">J.-M. Bruel</span><br>
 <span id="email" class="email"><a href="mailto:bruel@irit.fr">bruel@irit.fr</a></span><br>
-<span id="revdate">1.2 -- 2021-02-21</span>
+<span id="revdate">1.2.1 -- 2021-02-26</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -548,8 +548,13 @@ It uses the Asciidoc template available <a href="https://github.com/FormalRequir
 <td class="tableblock halign-left valign-top"><p class="tableblock">Writing of the Process book, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>1.2</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>2021-02-21</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2021-02-29</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Minor improvements of verification rules, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>1.2.1</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>2021-02-26</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Current PDF version, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></em></p></td>
 </tr>
 </tbody>
@@ -559,9 +564,28 @@ It uses the Asciidoc template available <a href="https://github.com/FormalRequir
 <div class="sect1">
 <h2 id="_goals">Goals</h2>
 <div class="sectionbody">
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="title">Front matter</div>
+
+</td>
+</tr>
+</table>
+</div>
 <div class="sect2">
 <h3 id="_g_1_overall_context_and_goals">G.1 Overall context and goals</h3>
-
+<div id="g1-mainGoal" class="paragraph">
+<p><code>1</code>
+The main purpose of the <a href="#companion">Companion Book</a> is to complement the  <a href="#Handbook">Handbook</a> by providing useful additional material, examples, templates, and full {method} use cases.</p>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-times-circle"></i></span> [Corresponding Artifact]</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_g_2_current_situation">G.2 Current situation</h3>
@@ -659,7 +683,29 @@ It will serve as a companion for the <a href="#Handbook">Handbook</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_g_7_requirements_sources">G.7 Requirements sources</h3>
-
+<div class="paragraph">
+<p>Most of the requirements come from the <a href="#Handbook">Handbook</a>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="title">Back matter</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">TBD list</dt>
+<dd>
+<p><a href="#p1-persons">[p1-persons]</a>.</p>
+</dd>
+</dl>
+</div>
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 </div>
@@ -680,7 +726,7 @@ It will serve as a companion for the <a href="#Handbook">Handbook</a>.</p>
 <dl>
 <dt class="hdlist1"><a href="#companion">Companion Book</a></dt>
 <dd>
-<p>The <em>system</em> to be developed.</p>
+<p>The <em>system</em> to be developed. Current version available <a href="https://formalrequirements.github.io/requirements-handbook-companion">here</a>.</p>
 </dd>
 </dl>
 </div>
@@ -688,7 +734,7 @@ It will serve as a companion for the <a href="#Handbook">Handbook</a>.</p>
 <dl>
 <dt class="hdlist1"><a href="#Handbook">Handbook</a></dt>
 <dd>
-<p>The book, entitled "Handbook of requirements and business analysis"; written by Bertrand Meyer (see PDF <a href="http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf">here</a>); and for which the <a href="#companion">Companion Book</a> serves as complementary material.</p>
+<p>The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF <a href="http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf">here</a>), and for which the <a href="#companion">Companion Book</a> serves as complementary material.</p>
 </dd>
 </dl>
 </div>
@@ -790,7 +836,7 @@ Here are the roles for the production of the <a href="#companion">Companion Book
 </div>
 <div class="sect2">
 <h3 id="_p_2_personnel_characteristics_and_constraints">P.2 Personnel characteristics and constraints</h3>
-<div id="p1-persons" class="paragraph">
+<div id="p2-persons" class="paragraph">
 <p><code>2</code>
 Here are the identified people involved in the development of the <a href="#companion">Companion Book</a>:</p>
 </div>
@@ -849,30 +895,33 @@ Here are the identified people involved in the development of the <a href="#comp
 </div>
 </details>
 <div class="paragraph">
-<p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="https://formalrequirements.github.io/requirements-handbook-companion/#_book_templates">Corresponding Artifact</a></p>
+<p><span class="icon"><i class="fa fa-times-circle"></i></span> [Corresponding Artifact]</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_p_3_imposed_technical_choices">P.3 Imposed technical choices</h3>
-<div id="p1-English" class="paragraph">
+<div id="p3-English" class="paragraph">
 <p><code>3</code>
 The <a href="#companion">Companion Book</a> should be written in English.</p>
 </div>
-<div id="p1-Springer" class="paragraph">
+<div id="p3-Springer" class="paragraph">
 <p><code>4</code>
 The <a href="#companion">Companion Book</a> should be written in one of the compatible inputs of the publisher, Springer.</p>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-times-circle"></i></span> [Corresponding Artifact]</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_p_4_schedule_and_milestones">P.4 Schedule and milestones</h3>
-<div id="p1-date" class="paragraph">
+<div id="p4-date" class="paragraph">
 <p><code>5</code>
 The expected date of the <a href="#companion">Companion Book</a> is the end of June.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_p_5_tasks_and_deliverables">P.5 Tasks and deliverables</h3>
-<div id="p1-repo" class="paragraph">
+<div id="p4-repo" class="paragraph">
 <p><code>6</code>
 The tasks are managed through the use of a collaborative repository: <a href="https://github.com/FormalRequirements/requirements-handbook" class="bare">https://github.com/FormalRequirements/requirements-handbook</a>.</p>
 </div>
@@ -900,7 +949,7 @@ The tasks are managed through the use of a collaborative repository: <a href="ht
 <dl>
 <dt class="hdlist1">TBD list</dt>
 <dd>
-<p><a href="#p1-persons">[p1-persons]</a>.</p>
+<p><a href="#p2-persons">[p2-persons]</a>.</p>
 </dd>
 </dl>
 </div>
@@ -936,14 +985,42 @@ The tasks are managed through the use of a collaborative repository: <a href="ht
 </div>
 <div class="sect2">
 <h3 id="_s_6_verification_and_acceptance_criteria">S.6 Verification and acceptance criteria</h3>
-
+<div class="paragraph">
+<p>Here are some examples of verification rules currently implemented in the <a href="#companion">Companion Book</a>.</p>
+</div>
+<div id="s6-mutualRefs" class="paragraph">
+<p><code>1</code>
+The books may reference each other, but not arbitrarily.
+The <a href="#mutualRefs">following diagram</a> shows which books may refer to which.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+It only governs the actual contents, ignoring the front and back matter.
+</td>
+</tr>
+</table>
+</div>
+<div id="mutualRefs" class="imageblock">
+<div class="content">
+<img src="https://raw.githubusercontent.com/FormalRequirements/requirements-handbook-companion/9f100f121c15772b07cc2bdc3d25afee587784fe/images/links.svg" alt="Reference links" width="40%">
+</div>
+<div class="title">Figure 1. Possible references between the books</div>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="https://github.com/FormalRequirements/companionRequirements/blob/main/features/book.feature">Corresponding artifact</a></p>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-02-21 17:10:46 +0100
+Last updated 2021-02-26 10:30:34 +0100
 </div>
 </div>
 </body>

@@ -1,3 +1,15 @@
+//------------------------------------
+// SYSTEM book
+//
+// Template for requirement:
+//---- Requirement
+//[[sx-keyword]] 
+//`{counter:sx}`
+// Requirement
+
+// {missing} [Corresponding Artifact]
+//---- 
+//------------------------------------
 
 == System
 
@@ -13,3 +25,19 @@
 
 === S.6 Verification and acceptance criteria
 
+Here are some examples of verification rules currently implemented in the {companion}.
+
+//---- Requirement
+[[s6-mutualRefs]] 
+`{counter:s6}`
+The books may reference each other, but not arbitrarily. 
+The <<mutualRefs,following diagram>> shows which books may refer to which. 
+
+NOTE: It only governs the actual contents, ignoring the front and back matter.
+
+[[mutualRefs]]
+.Possible references between the books
+image::https://raw.githubusercontent.com/FormalRequirements/requirements-handbook-companion/9f100f121c15772b07cc2bdc3d25afee587784fe/images/links.svg[Reference links, width=40%, pdfwidth=40%]
+
+{check} https://github.com/FormalRequirements/companionRequirements/blob/main/features/book.feature[Corresponding artifact]
+//---- 

@@ -19,10 +19,10 @@ It also lists the icons used in this document.
 ==== `{counter:environment}` Terms
 
 [[companion]]
-{companion}:: The _system_ to be developed.  
+{companion}:: The _system_ to be developed. Current version available {companionURL}[here].
 
 [[Handbook]]
-{Handbook}:: The book, entitled "Handbook of requirements and business analysis"; written by Bertrand Meyer (see PDF {HandbookPDF}[here]); and for which the {companion} serves as complementary material.
+{Handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the {companion} serves as complementary material.
 
 ==== `{counter:environment}` Icons
 
