@@ -10,6 +10,10 @@
 :title-page-background-image: image::pegs.svg[pdfwidth=60%]
 // :title-logo-image: image::pegs.svg[top=1%, align=left, pdfwidth=2.5in]
 :back-cover-image: image::pegs.svg[pdfwidth=160%]
+:method: pass:[<b>PEGS</b>]
+ifdef::pdf-backend[]
+:method: PEGS
+endif::[]
 
 = {title}
 {author},{email}
