@@ -10,10 +10,17 @@
 // {missing} [Corresponding Artifact]
 //---- 
 //------------------------------------
+include::definitions.adoc[]
 
 == System
 
 === S.1 Components
+
+The components of the <<companion>> initially identified are the following:
+
+- [[s1-overview]] `{counter:s1}` An overview of the {Method} method.
+- [[s1-caseStudies]] `{counter:s1}` At least one case study ({Roborace})
+- [[s1-bookTemplates]] `{counter:s1}` At least one book template
 
 === S.2 Functionality
 

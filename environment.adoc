@@ -16,15 +16,16 @@ This section defines the domain-specific terms used in this document.
 
 It also lists the icons used in this document.
 
-==== `{counter:environment}` Terms
+[[e1-terms]]
+==== `{counter:e1}` Terms
 
 [[companion]]
-{companion}:: The _system_ to be developed. Current version available {companionURL}[here].
+{companion}:: The _system_ to be developed: the companion book of <<Handbook>>. Current version available {companionURL}[here].
 
 [[Handbook]]
-{Handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the {companion} serves as complementary material.
+{Handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the <<companion>> serves as complementary material.
 
-==== `{counter:environment}` Icons
+==== `{counter:e1}` Icons
 
 Here is the list of significations for the icons used when tracing the corresponding artifacts:
 
@@ -42,10 +43,21 @@ Here is the list of significations for the icons used when tracing the correspon
 
 === E.2 Components
 
+Not applicable.
+
 === E.3 Constraints
+
+`{counter:e3}` 
+The <<companion>> should itself apply the method described in the <<handbook>>. 
 
 === E.4 Assumptions
 
+Not applicable.
+
 === E.5 Effects
 
+Not applicable.
+
 === E.6 Invariants
+
+Not applicable.
