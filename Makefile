@@ -22,6 +22,9 @@ main.pdf: main.adoc $(BOOKS)
 clean:
 	rm *.html
 
+check:
+	cucumber
+
 deploy: index.html
 	@echo "========================================"
 	@echo "==> Deploy updates "

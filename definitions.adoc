@@ -4,6 +4,7 @@
 :HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
 :companionGit: https://github.com/FormalRequirements/requirements-handbook
 :Roborace: https://formalrequirements.github.io/roboraceRequirements/[Roborace]
+:requiremmentsURL: https://formalrequirements.github.io/companionRequirements
 
 // ICONS
 :check: icon:check-circle[]

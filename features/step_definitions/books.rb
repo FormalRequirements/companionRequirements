@@ -22,4 +22,7 @@ Given /^The ([^"]+) book/ do |book|
 
   Then('Only E.5 section can refer to the System book') do
     # TBC
-  end
+    f = File.new($source)
+    text = f.read
+    expect(text =~ /{system}/).to be nil
+end
