@@ -1,7 +1,7 @@
 #-----------------------------------------------------
 # Some usefull instructions...
 #
-BOOKS = goals.adoc environment.adoc process.adoc system.adoc changelog.adoc
+BOOKS = goals.adoc environment.adoc process.adoc system.adoc changelog.adoc definitions.adoc
 DOC = asciidoctor -a allow-uri-read
 #-----------------------------------------------------
 
@@ -16,7 +16,7 @@ index.html: main.adoc $(BOOKS)
 %.html: %.adoc 
 	$(DOC) -a toc=left $<
 
-main.pdf: main.adoc $(BOOKS)
+main.pdf: main.adoc $(BOOKS) 
 	asciidoctor-pdf -a allow-uri-read -a toc=2 -a pdf-backend  main.adoc
 
 clean:
@@ -25,7 +25,7 @@ clean:
 check:
 	cucumber
 
-deploy: index.html
+deploy: index.html check
 	@echo "========================================"
 	@echo "==> Deploy updates "
 	git commit -am "🤖 DEPLOY: last updates"; git pull; git push

@@ -43,7 +43,7 @@ Here is the list of significations for the icons used when tracing the correspon
 
 === E.2 Components
 
-Not applicable.
+{emptysec}
 
 === E.3 Constraints
 
@@ -52,12 +52,12 @@ The <<companion>> should itself apply the method described in the <<handbook>>.
 
 === E.4 Assumptions
 
-Not applicable.
+{emptysec}
 
 === E.5 Effects
 
-Not applicable.
+{emptysec}
 
 === E.6 Invariants
 
-Not applicable.
+{emptysec}

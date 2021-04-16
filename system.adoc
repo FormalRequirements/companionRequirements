@@ -24,11 +24,19 @@ The components of the <<companion>> initially identified are the following:
 
 === S.2 Functionality
 
+{emptysec}
+
 === S.3 Interfaces
+
+{emptysec}
 
 === S.4 Scenarios (use cases, user stories)
 
+{emptysec}
+
 === S.5 Prioritization
+
+{emptysec}
 
 === S.6 Verification and acceptance criteria
 

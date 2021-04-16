@@ -51,7 +51,7 @@ The only available material is the current status of the {Handbook}.
 {check} {companionURL}[Corresponding Artifact]
 //---- 
 
-=== G.4 System overview
+=== G.4 Functionality overview
 
 //---- Requirement
 [[g4-system]]
@@ -62,9 +62,15 @@ It will serve as a companion for the {Handbook}.
 {check} {companionURL}/#_book_templates[Corresponding Artifact]
 //---- 
 
-=== G.5 Limitations and exclusions 
+=== G.5 High-level usage scenarios 
 
-=== G.6 Stakeholders
+{emptysec}
+
+=== G.6 Limitations and exclusions 
+
+{emptysec}
+
+=== G.7 Stakeholders and requirements sources
 
 Here is a non-exhaustive list of the stakeholders.
 

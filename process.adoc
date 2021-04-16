@@ -82,7 +82,7 @@ The tasks are managed through the use of a collaborative repository: {companionG
 
 === P.6 Risk and mitigation analysis
 
-At this point, there is no mitigation analysis.
+{emptysec}
 
 === P.7 Requirements process and report
 

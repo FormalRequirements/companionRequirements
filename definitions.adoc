@@ -26,3 +26,6 @@ endif::[]
 :jmb: https://jmbruel.netlify.app[J.-M. Bruel]
 :mn: Marya Naumchev
 :se: Sophie Ebersold
+
+// TRICKS
+:emptysec: icon:warning[] Nothing available at this point.
