@@ -97,8 +97,6 @@ Here is a non-exhaustive list of the stakeholders.
 |===
 //----------------------------------------------
 
-=== G.7 Requirements sources
-
 Most of the requirements come from the {Handbook}.
 
 .Back matter

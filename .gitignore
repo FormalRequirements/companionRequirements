@@ -5,3 +5,4 @@ pom.xml
 .project
 .settings
 main.html
+.DS_Store

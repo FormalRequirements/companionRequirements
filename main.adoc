@@ -1,6 +1,6 @@
 :title: Companion Requirements
 :project: Project
-:version: 1.2.2
+:version: 1.2.1
 :author: J.-M. Bruel
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France
@@ -19,7 +19,26 @@ endif::[]
 {author},{email}
 {version} -- {localdate}
 
-include::definitions.adoc[]
+//--------------------------- Glossary & Definitions
+// URLS
+:companionURL: https://formalrequirements.github.io/requirements-handbook-companion
+:HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
+:companionGit: https://github.com/FormalRequirements/requirements-handbook
+// ICONS
+:check: icon:check-circle[]
+:bug: icon:bug[]
+:missing: icon:times-circle[]
+// GLOSSARY ENTRIES
+:companion: <<companion, Companion Book>>
+:Handbook:  <<Handbook, Handbook>>
+// PERSONS ENTRIES
+:an: Alexandr Naumchev
+:bm: Bertrand Meyer
+:fg: Florian Galinier
+:jmb: https://jmbruel.netlify.app[J.-M. Bruel]
+:mn: Marya Naumchev
+:se: Sophie Ebersold
+
 
 [NOTE]
 ====
