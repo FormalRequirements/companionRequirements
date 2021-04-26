@@ -14,6 +14,19 @@ on:
     branches: [ main ]
 
 jobs:
+  list:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+ #       ruby-version: ['2.6', '2.7', '3.0']
+        ruby-version: ['2.7']
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: List Asciidoc files
+      run: ls -al *.adoc
+
   test:
 
     runs-on: ubuntu-latest
@@ -33,4 +46,4 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Run tests
-      run: cd ../..; bundle exec cucumber
+      run: bundle exec cucumber
