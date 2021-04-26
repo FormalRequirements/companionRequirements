@@ -14,7 +14,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  BDD:
 
     runs-on: ubuntu-latest
     strategy:
@@ -33,4 +33,5 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Run tests
+      # Run cucumber to check Behavior-Driven Development features
       run: bundle exec cucumber
