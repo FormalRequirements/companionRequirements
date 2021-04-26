@@ -1,4 +1,4 @@
-== Process
+== Project
 
 .Front matter
 [TIP]
@@ -15,7 +15,7 @@
 
 //---- Requirement
 [[p1-roles]]
-`{counter:process}`
+`{counter:project}`
 Here are the roles for the production of the {companion}:
 
 - Leader: The person in charge of leading and organizing the writing effort.
@@ -28,7 +28,7 @@ Here are the roles for the production of the {companion}:
 
 //---- Requirement
 [[p2-persons]]
-`{counter:process}`
+`{counter:project}`
 Here are the identified people involved in the development of the {companion}:
 
 - Leader: The writing effort of the {companion} is under the responsibility of {jmb}.
@@ -56,12 +56,12 @@ Needs::
 
 //---- Requirement
 [[p3-English]]
-`{counter:process}`
+`{counter:project}`
 The {companion} should be written in English.
 
 //---- Requirement
 [[p3-Springer]]
-`{counter:process}`
+`{counter:project}`
 The {companion} should be written in one of the compatible inputs of the publisher, Springer.
 
 {missing} [Corresponding Artifact]
@@ -70,14 +70,14 @@ The {companion} should be written in one of the compatible inputs of the publish
 
 //---- Requirement
 [[p4-date]]
-`{counter:process}`
+`{counter:project}`
 The expected date of the {companion} is the end of June.
 
 === P.5 Tasks and deliverables
 
 //---- Requirement
 [[p4-repo]]
-`{counter:process}`
+`{counter:project}`
 The tasks are managed through the use of a collaborative repository: {companionGit}. 
 
 === P.6 Risk and mitigation analysis
