@@ -49,12 +49,12 @@ It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_As
 
 include::changelog.adoc[]
 
-include::goals.adoc[]
+include::Goals.adoc[]
 
-include::environment.adoc[]
+include::Environment.adoc[]
 
-include::process.adoc[]
+include::Project.adoc[]
 
-include::system.adoc[]
+include::System.adoc[]
 
 

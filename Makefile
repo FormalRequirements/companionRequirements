@@ -1,7 +1,7 @@
 #-----------------------------------------------------
 # Some usefull instructions...
 #
-BOOKS = goals.adoc environment.adoc process.adoc system.adoc changelog.adoc definitions.adoc
+BOOKS = Goals.adoc Environment.adoc Project.adoc System.adoc changelog.adoc definitions.adoc
 DOC = asciidoctor -a allow-uri-read
 #-----------------------------------------------------
 
