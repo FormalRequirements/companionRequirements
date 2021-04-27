@@ -24,6 +24,7 @@ endif::[]
 :companionURL: https://formalrequirements.github.io/requirements-handbook-companion
 :HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
 :companionGit: https://github.com/FormalRequirements/requirements-handbook
+:emptysec: icon:warning[] Nothing available at this point.
 // ICONS
 :check: icon:check-circle[]
 :bug: icon:bug[]

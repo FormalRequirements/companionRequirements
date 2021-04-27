@@ -1,3 +1,13 @@
+//------------------------------------
+// PROJECT book
+//
+// Template for requirement:
+//[[ex-keyword]] 
+//`{counter:project}`
+// Requirement
+
+// {missing} [Corresponding Artifact]
+//------------------------------------
 == Project
 
 .Front matter
