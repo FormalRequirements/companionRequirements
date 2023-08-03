@@ -4,7 +4,7 @@
 :HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
 :companionGit: https://github.com/FormalRequirements/requirements-handbook
 :Roborace: https://formalrequirements.github.io/roboraceRequirements/[Roborace]
-:requiremmentsURL: https://formalrequirements.github.io/companionRequirements
+:requirementsURL: https://formalrequirements.github.io/companionRequirements
 
 // ICONS
 :check: icon:check-circle[]
@@ -28,4 +28,4 @@ endif::[]
 :se: Sophie Ebersold
 
 // TRICKS
-:emptysec: icon:warning[] Nothing available at this point.
+:emptysec: icon:warning[] No requirements of this type available at this point.

@@ -1,6 +1,6 @@
 :title: Companion Requirements
 :project: Project
-:version: 1.2.1
+:version: 1.2.3
 :author: J.-M. Bruel
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France
@@ -48,7 +48,7 @@ It follows the method presented in the {HandbookPDF}[Handbook of requirements an
 It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_Asciidoc_template_for_PEGS/templates/asciidoc/book.adoc[here].
 ====
 
-include::changelog.adoc[]
+include::changelog.adoc[leveloffset+=1]
 
 include::Goals.adoc[]
 

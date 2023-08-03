@@ -20,10 +20,10 @@ It also lists the icons used in this document.
 ==== `{counter:e1}` Terms
 
 [[companion]]
-{companion}:: The _system_ to be developed: the companion book of <<Handbook>>. Current version available {companionURL}[here].
+{companion}:: The _system_ to be developed: the companion book of {Handbook}. Current version available {companionURL}[here].
 
 [[Handbook]]
-{Handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the <<companion>> serves as complementary material.
+{Handbook}:: The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF {HandbookPDF}[here]), and for which the {companion} serves as complementary material.
 
 ==== `{counter:e1}` Icons
 
@@ -47,8 +47,21 @@ Here is the list of significations for the icons used when tracing the correspon
 
 === E.3 Constraints
 
-`{counter:e3}` 
-The <<companion>> should itself apply the method described in the <<handbook>>. 
+:e3-method: {counter:e3}
+[[e3-method]]
+`{e3-method}`
+The {companion} should itself apply the method described in the {Handbook}. 
+
+:e3-pages: {counter:e3}
+[[e3-pages]]
+`{e3-pages}` 
+//From an email by Springer's contact on August, 2nd 2023.
+The {companion} should reach at least 160-170 pages.
+
+:e3-pages-rational:  {counter:e3}
+[[e3-pages-rational]]
+`{e3-pages-rational}` 
+The rational for requirement <<e3-pages,E.3.{e3-pages}>> is: in order to have a sufficient distinction from the https://www.springer.com/series/10028[SpringerBriefs].
 
 === E.4 Assumptions
 
