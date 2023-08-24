@@ -65,7 +65,10 @@ The rational for requirement <<e3-pages,E.3.{e3-pages}>> is: in order to have a 
 
 === E.4 Assumptions
 
-{emptysec}
+:e4-review: {counter:e4}
+[[e4-review]]
+`{e4-review}`
+The {companion} will be reviewed by the author of the {Handbook}. 
 
 === E.5 Effects
 

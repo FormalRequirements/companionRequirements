@@ -11,6 +11,7 @@
 | 1.2.1 | 2021-02-29 | Minor improvements of verification rules, by {jmb}
 | 1.2.2 | 2021-04-16 | Minor improvements of goals, by {jmb}
 | 1.2.3 | 2023-08-02 | Add an example of business constraint and its rational in E.3, by {jmb}
+| 1.2.4 | 2023-08-24 | Add an example of Assumption in E.4, and add Minimum Outcome Principle feature, by {jmb}
 | _{version}_ | _{localdate}_ | _Current PDF version, by {jmb}_
 |=== 
 //----------------------------------------------
