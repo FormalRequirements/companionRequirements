@@ -2,15 +2,15 @@ Given /^The ([^"]+) book/ do |book|
     $source = "#{book}.adoc"
   end
   
-  Then('P4 chapter must not be empty') do
+  Then('P3 chapter must not be empty') do
     f = File.new($source)
     text = f.read
-    expect(text =~ /=== P.4 Schedule and milestones
+    expect(text =~ /=== P.3 Schedule and milestones
 
       {emtysec}/).to be nil
   end
 
-  Then('P5 chapter must not be empty') do
+  Then('P4 chapter must not be empty') do
     pending # Write code here that turns the phrase above into concrete actions
   end
 

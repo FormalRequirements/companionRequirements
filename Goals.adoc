@@ -25,7 +25,7 @@ toc::[]
 // Approval information. 
 ====
 
-=== G.1 Overall context and goals
+=== G.1 Context and overall objective
 
 //---- Requirement
 [[g1-mainGoal]]
@@ -55,7 +55,7 @@ The only available material is the current status of the {Handbook}.
 
 //---- Requirement
 [[g4-system]]
-`{counter:g3}`
+`{counter:g4}`
 The _system_ under development in this specification is an unusual one: a book!
 It will serve as a companion for the {Handbook}.
 

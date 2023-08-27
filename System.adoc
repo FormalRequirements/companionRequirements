@@ -30,7 +30,7 @@ The components of the {companion} initially identified are the following:
 
 {emptysec}
 
-=== S.4 Scenarios (use cases, user stories)
+=== S.4 Detailed usage scenarios
 
 {emptysec}
 
@@ -52,7 +52,7 @@ NOTE: It only governs the actual contents, ignoring the front and back matter.
 
 [[mutualRefs]]
 .Possible references between the books
-image::https://raw.githubusercontent.com/FormalRequirements/requirements-handbook-companion/9f100f121c15772b07cc2bdc3d25afee587784fe/images/links.svg[Reference links, width=40%, pdfwidth=40%]
+image::links.png[Reference links, width=40%, pdfwidth=40%]
 
 {check} https://github.com/FormalRequirements/companionRequirements/blob/main/features/book.feature[Corresponding artifact]
 //---- 

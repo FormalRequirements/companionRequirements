@@ -6,10 +6,10 @@
 Feature: Minimum Requirements Outcome Principle
     The requirements effort must always produce the following elements.
 
-Scenario: The Project book must have P4 P5 chapters
+Scenario: The Project book must have P3 P4 chapters
     Given The Project book
-    Then P4 chapter must not be empty     
-    And P5 chapter must not be empty
+    Then P3 chapter must not be empty     
+    And P4 chapter must not be empty
 
 Scenario: The Environment book must have E3 chapter
     Given The Environment book
