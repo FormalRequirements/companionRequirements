@@ -39,7 +39,7 @@ The main purpose of the {companion} is to complement the  {Handbook} by providin
 //---- Requirement
 [[g2-current]]
 `{counter:g2}`
-The only available material is the current status of the {Handbook}.
+The only available material is the published {Handbook}.
 
 === G.3 Expected benefits 
 
@@ -57,14 +57,20 @@ The only available material is the current status of the {Handbook}.
 [[g4-system]]
 `{counter:g4}`
 The _system_ under development in this specification is an unusual one: a book!
-It will serve as a companion for the {Handbook}.
+It will serve as one of the case studies for the {companion}.
 
 {check} {companionURL}/#_book_templates[Corresponding Artifact]
 //---- 
 
 === G.5 High-level usage scenarios 
 
-{emptysec}
+[[g5-practice]]
+`{counter:g5}`
+The main target usage of the {companion} is for students to practice the {handbook} principles.
+
+[[g6-teacher]]
+`{counter:g5}`
+An expected usage of the {companion} is for Requirements Engineering courses teachers to get materials for their class.
 
 === G.6 Limitations and exclusions 
 
@@ -93,7 +99,8 @@ Here is a non-exhaustive list of the stakeholders.
 | Stakeholder    | Category | Comment 
 //----------------------------------------------
 | Author of the Handbook | Domain Expert | Bertrand Meyer, author of the {Handbook}, and main evaluator of the {companion}
-| Author of the Companion Book | Project Manager | {jmb}, author and effort leader of the {companion}
+| Leader of the Companion Book | Project Manager | {jmb}, effort leader of the {companion}
+| Authors of the Companion Book | Developers | {jmb}, {se} and {mn}, authors of the {companion}
 |===
 //----------------------------------------------
 
