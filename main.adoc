@@ -5,6 +5,7 @@
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France
 :icons: font
+:toc: macro
 //--------------------------- PDF version
 :doctype: book
 :title-page-background-image: image::pegs.svg[pdfwidth=60%]
@@ -49,6 +50,9 @@ It uses the Asciidoc template available {companionGit}/blob/issue-14-Write_an_As
 ====
 
 include::changelog.adoc[leveloffset+=1]
+
+:toclevels: 2
+toc::[] 
 
 include::Goals.adoc[]
 

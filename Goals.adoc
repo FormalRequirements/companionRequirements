@@ -10,7 +10,6 @@
 // {missing} [Corresponding Artifact]
 //---- 
 //------------------------------------
-:toc: macro
 
 == Goals
 
@@ -20,7 +19,6 @@
 // Title (whether or not on a separate title page).
 // Date of current publication and revision history.
 // Table of contents and any other appropriate tables, such as a table of illustrations. (But not the glossary, which is part of the contents, as section E.1.)
-toc::[] 
 // Copyright notice, distribution information, restrictions on distribution.
 // Approval information. 
 ====
@@ -29,8 +27,8 @@ toc::[]
 
 //---- Requirement
 [[g1-mainGoal]]
-`{counter:g1}`
-The main purpose of the {companion} is to complement the  {Handbook} by providing useful additional material, examples, templates, and full {method} use cases.
+`G.1.{counter:g1}`
+The main purpose of the {companion} is to complement the {Handbook} by providing useful additional material, examples, templates, and full {method} use cases.
 //---- 
 
 
@@ -38,38 +36,36 @@ The main purpose of the {companion} is to complement the  {Handbook} by providin
 
 //---- Requirement
 [[g2-current]]
-`{counter:g2}`
+`G.2.{counter:g2}`
 The only available material is the published {Handbook}.
 
 === G.3 Expected benefits 
 
 //---- Requirement
 [[g3-templates]]
-`{counter:g3}`
+`G.3.{counter:g3}`
 <<readerC, Readers>> of the {companion} should be able to find some templates for the requirements' book structure.
 
-{check} {companionURL}[Corresponding Artifact]
+{check} <<templates, Corresponding Artifact>>
 //---- 
 
 === G.4 Functionality overview
 
 //---- Requirement
 [[g4-system]]
-`{counter:g4}`
+`G.4.{counter:g4}`
 The _system_ under development in this specification is an unusual one: a book!
 It will serve as one of the case studies for the {companion}.
-
-{check} {companionURL}/#_book_templates[Corresponding Artifact]
 //---- 
 
 === G.5 High-level usage scenarios 
 
 [[g5-practice]]
-`{counter:g5}`
+`G.5.{counter:g5}`
 The main target usage of the {companion} is for students to practice the {handbook} principles.
 
-[[g6-teacher]]
-`{counter:g5}`
+[[g5-teacher]]
+`G.5.{counter:g5}`
 An expected usage of the {companion} is for Requirements Engineering courses teachers to get materials for their class.
 
 === G.6 Limitations and exclusions 
@@ -78,6 +74,8 @@ An expected usage of the {companion} is for Requirements Engineering courses tea
 
 === G.7 Stakeholders and requirements sources
 
+[[g7-stakeholders]]
+`G.7.{counter:g7}`
 Here is a non-exhaustive list of the stakeholders.
 
 //----------------------------------------------
@@ -104,6 +102,8 @@ Here is a non-exhaustive list of the stakeholders.
 |===
 //----------------------------------------------
 
+[[g7-source]]
+`G.7.{counter:g7}`
 Most of the requirements come from the {Handbook}.
 
 .Back matter

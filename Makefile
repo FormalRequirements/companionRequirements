@@ -17,7 +17,7 @@ index.html: main.adoc $(BOOKS)
 	$(DOC) -a toc=left $<
 
 main.pdf: main.adoc $(BOOKS) 
-	asciidoctor-pdf -a allow-uri-read -a toc=2 -a pdf-backend  main.adoc
+	asciidoctor-pdf -a allow-uri-read -a pdf-backend  main.adoc
 
 clean:
 	rm *.html

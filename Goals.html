@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
-<meta name="author" content="J.-M. Bruel,bruel@irit.fr">
-<title>Companion Requirements</title>
+<title>Goals</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -433,20 +432,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="book toc2 toc-left">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>Companion Requirements</h1>
-<div class="details">
-<span id="author" class="author">J.-M. Bruel</span><br>
-<span id="email" class="email"><a href="mailto:bruel@irit.fr">bruel@irit.fr</a></span><br>
-<span id="revdate">1.2.6 -- 2023-09-19</span>
-</div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
-<ul class="sectlevel0">
-<li><a href="#_changelog">CHANGELOG</a>
 <ul class="sectlevel1">
 <li><a href="#_goals">Goals</a>
 <ul class="sectlevel2">
@@ -459,147 +449,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_g_7_stakeholders_and_requirements_sources">G.7 Stakeholders and requirements sources</a></li>
 </ul>
 </li>
-<li><a href="#_environment">Environment</a>
-<ul class="sectlevel2">
-<li><a href="#_e_1_glossary">E.1 Glossary</a></li>
-<li><a href="#_e_2_components">E.2 Components</a></li>
-<li><a href="#_e_3_constraints">E.3 Constraints</a></li>
-<li><a href="#_e_4_assumptions">E.4 Assumptions</a></li>
-<li><a href="#_e_5_effects">E.5 Effects</a></li>
-<li><a href="#_e_6_invariants">E.6 Invariants</a></li>
-</ul>
-</li>
-<li><a href="#_project">Project</a>
-<ul class="sectlevel2">
-<li><a href="#_p_1_roles_and_personnel">P.1 Roles and personnel</a></li>
-<li><a href="#_p_2_imposed_technical_choices">P.2 Imposed technical choices</a></li>
-<li><a href="#_p_3_schedule_and_milestones">P.3 Schedule and milestones</a></li>
-<li><a href="#_p_4_tasks_and_deliverables">P.4 Tasks and deliverables</a></li>
-<li><a href="#_p_5_required_technology_elements">P.5 Required technology elements</a></li>
-<li><a href="#_p_6_risk_and_mitigation_analysis">P.6 Risk and mitigation analysis</a></li>
-<li><a href="#_p_7_requirements_process_and_report">P.7 Requirements process and report</a></li>
-</ul>
-</li>
-<li><a href="#_system">System</a>
-<ul class="sectlevel2">
-<li><a href="#_s_1_components">S.1 Components</a></li>
-<li><a href="#_s_2_functionality">S.2 Functionality</a></li>
-<li><a href="#_s_3_interfaces">S.3 Interfaces</a></li>
-<li><a href="#_s_4_detailed_usage_scenarios">S.4 Detailed usage scenarios</a></li>
-<li><a href="#_s_5_prioritization">S.5 Prioritization</a></li>
-<li><a href="#_s_6_verification_and_acceptance_criteria">S.6 Verification and acceptance criteria</a></li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>This document constitutes the requirements book of the <a href="https://formalrequirements.github.io/requirements-handbook-companion">Requirements Handbook Companion</a>.
-It follows the method presented in the <a href="http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf">Handbook of requirements and business analysis</a>.
-It uses the Asciidoc template available <a href="https://github.com/FormalRequirements/requirements-handbook/blob/issue-14-Write_an_Asciidoc_template_for_PEGS/templates/asciidoc/book.adoc">here</a>.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<h1 id="_changelog" class="sect0">CHANGELOG</h1>
-<div class="openblock partintro">
-<div class="content">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 60%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Version</th>
-<th class="tableblock halign-left valign-top">Date</th>
-<th class="tableblock halign-left valign-top">Comment</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2021-02-01</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Initial draft by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2021-02-08</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Organization in separate books' files, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2021-02-21</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Writing of the Process book, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2021-02-29</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Minor improvements of verification rules, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2021-04-16</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Minor improvements of goals, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.3</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2023-08-02</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Add an example of business constraint and its rational in E.3, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.4</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2023-08-24</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Add an example of Assumption in E.4, and add Minimum Outcome Principle feature, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.5</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2023-08-25</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Fix Standard plan updates, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.6</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2023-08-27</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Add Scenarios and authors, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>1.2.6</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>2023-09-19</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Current PDF version, by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></em></p></td>
-</tr>
-</tbody>
-</table>
-<!-- toc disabled -->
-</div>
-</div>
 <div class="sect1">
 <h2 id="_goals">Goals</h2>
 <div class="sectionbody">
+<!-- toc disabled -->
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
+<div class="title">Tip</div>
 </td>
 <td class="content">
 <div class="title">Front matter</div>
-
+<!-- toc disabled -->
 </td>
 </tr>
 </table>
@@ -607,57 +473,59 @@ It uses the Asciidoc template available <a href="https://github.com/FormalRequir
 <div class="sect2">
 <h3 id="_g_1_context_and_overall_objective">G.1 Context and overall objective</h3>
 <div id="g1-mainGoal" class="paragraph">
-<p><code>G.1.1</code>
-The main purpose of the <a href="#companion">Companion Book</a> is to complement the <a href="#Handbook">Handbook</a> by providing useful additional material, examples, templates, and full <b>PEGS</b> use cases.</p>
+<p><code>1</code>
+The main purpose of the {companion} is to complement the  {Handbook} by providing useful additional material, examples, templates, and full {method} use cases.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_g_2_current_situation">G.2 Current situation</h3>
 <div id="g2-current" class="paragraph">
-<p><code>G.2.1</code>
-The only available material is the published <a href="#Handbook">Handbook</a>.</p>
+<p><code>1</code>
+The only available material is the published {Handbook}.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_g_3_expected_benefits">G.3 Expected benefits</h3>
 <div id="g3-templates" class="paragraph">
-<p><code>G.3.1</code>
-<a href="#readerC">Readers</a> of the <a href="#companion">Companion Book</a> should be able to find some templates for the requirements' book structure.</p>
+<p><code>1</code>
+<a href="#readerC">Readers</a> of the {companion} should be able to find some templates for the requirements' book structure.</p>
 </div>
 <div class="paragraph">
-<p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="#templates">Corresponding Artifact</a></p>
+<p>{check} {companionURL}[Corresponding Artifact]</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_g_4_functionality_overview">G.4 Functionality overview</h3>
 <div id="g4-system" class="paragraph">
-<p><code>G.4.1</code>
+<p><code>1</code>
 The <em>system</em> under development in this specification is an unusual one: a book!
-It will serve as one of the case studies for the <a href="#companion">Companion Book</a>.</p>
+It will serve as one of the case studies for the {companion}.</p>
+</div>
+<div class="paragraph">
+<p>{check} {companionURL}/#_book_templates[Corresponding Artifact]</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_g_5_high_level_usage_scenarios">G.5 High-level usage scenarios</h3>
 <div id="g5-practice" class="paragraph">
-<p><code>G.5.1</code>
-The main target usage of the <a href="#companion">Companion Book</a> is for students to practice the <a href="#Handbook">Handbook</a> principles.</p>
+<p><code>1</code>
+The main target usage of the {companion} is for students to practice the {handbook} principles.</p>
 </div>
-<div id="g5-teacher" class="paragraph">
-<p><code>G.5.2</code>
-An expected usage of the <a href="#companion">Companion Book</a> is for Requirements Engineering courses teachers to get materials for their class.</p>
+<div id="g6-teacher" class="paragraph">
+<p><code>2</code>
+An expected usage of the {companion} is for Requirements Engineering courses teachers to get materials for their class.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_g_6_limitations_and_exclusions">G.6 Limitations and exclusions</h3>
 <div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+<p>{emptysec}</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_g_7_stakeholders_and_requirements_sources">G.7 Stakeholders and requirements sources</h3>
-<div id="g7-stakeholders" class="paragraph">
-<p><code>G.7.1</code>
-Here is a non-exhaustive list of the stakeholders.</p>
+<div class="paragraph">
+<p>Here is a non-exhaustive list of the stakeholders.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 1. Target side stakeholders</caption>
@@ -677,17 +545,17 @@ Here is a non-exhaustive list of the stakeholders.</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Springer</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Legal department</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">In charge of the edition of the <a href="#companion">Companion Book</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In charge of the edition of the {companion}</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Readers of the <a href="#Handbook">Handbook</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Readers of the {Handbook}</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">User</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Readers of the main <a href="#Handbook">Handbook</a> that might need additional information about the method</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Readers of the main {Handbook} that might need additional information about the method</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="readerC"></a>Readers of the <a href="#companion">Companion Book</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="readerC"></a>Readers of the {companion}</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">User</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Person reading the <a href="#companion">Companion Book</a> who might not have access to the main <a href="#Handbook">Handbook</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Person reading the {companion} who might not have access to the main {Handbook}</p></td>
 </tr>
 </tbody>
 </table>
@@ -709,29 +577,28 @@ Here is a non-exhaustive list of the stakeholders.</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Author of the Handbook</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Domain Expert</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Bertrand Meyer, author of the <a href="#Handbook">Handbook</a>, and main evaluator of the <a href="#companion">Companion Book</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bertrand Meyer, author of the {Handbook}, and main evaluator of the {companion}</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Leader of the Companion Book</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Project Manager</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://jmbruel.netlify.app">J.-M. Bruel</a>, effort leader of the <a href="#companion">Companion Book</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{jmb}, effort leader of the {companion}</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Authors of the Companion Book</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Developers</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://jmbruel.netlify.app">J.-M. Bruel</a>, Sophie Ebersold and Marya Naumchev, authors of the <a href="#companion">Companion Book</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{jmb}, {se} and {mn}, authors of the {companion}</p></td>
 </tr>
 </tbody>
 </table>
-<div id="g7-source" class="paragraph">
-<p><code>G.7.2</code>
-Most of the requirements come from the <a href="#Handbook">Handbook</a>.</p>
+<div class="paragraph">
+<p>Most of the requirements come from the {Handbook}.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
+<div class="title">Tip</div>
 </td>
 <td class="content">
 <div class="title">Back matter</div>
@@ -750,364 +617,10 @@ Most of the requirements come from the <a href="#Handbook">Handbook</a>.</p>
 </div>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_environment">Environment</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_e_1_glossary">E.1 Glossary</h3>
-<div class="paragraph">
-<p>This section defines the domain-specific terms used in this document.</p>
-</div>
-<div class="paragraph">
-<p>It also lists the icons used in this document.</p>
-</div>
-<div class="sect3">
-<h4 id="e1-terms"><code>E.1.1</code> Terms</h4>
-<div id="companion" class="dlist">
-<dl>
-<dt class="hdlist1"><a href="#companion">Companion Book</a></dt>
-<dd>
-<p>The <em>system</em> to be developed: the companion book of <a href="#Handbook">Handbook</a>. Current version available <a href="https://formalrequirements.github.io/requirements-handbook-companion">here</a>.</p>
-</dd>
-</dl>
-</div>
-<div id="Handbook" class="dlist">
-<dl>
-<dt class="hdlist1"><a href="#Handbook">Handbook</a></dt>
-<dd>
-<p>The book, entitled "Handbook of requirements and business analysis", written by Bertrand Meyer (see PDF <a href="http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf">here</a>), and for which the <a href="#companion">Companion Book</a> serves as complementary material.</p>
-</dd>
-</dl>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_e_1_2_icons"><code>E.1.2</code> Icons</h4>
-<div class="paragraph">
-<p>Here is the list of significations for the icons used when tracing the corresponding artifacts:</p>
-</div>
-<table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 3. Icons signification</caption>
-<colgroup>
-<col style="width: 12.5%;">
-<col style="width: 87.5%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Icon</th>
-<th class="tableblock halign-left valign-top">Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-check-circle"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A precisely referenced artifact satisfying the requirement</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-bug"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">An artifact not yet fully functional</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-times-circle"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">No corresponding artifact yet (requirement not satisfied)</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_e_2_components">E.2 Components</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_e_3_constraints">E.3 Constraints</h3>
-<div id="e3-method" class="paragraph">
-<p><code>E.3.1</code>
-The <a href="#companion">Companion Book</a> should itself apply the method described in the <a href="#Handbook">Handbook</a>.</p>
-</div>
-<div id="e3-pages" class="paragraph">
-<p><code>E.3.2</code>
-The <a href="#companion">Companion Book</a> should reach at least 160-170 pages.</p>
-</div>
-<div id="e3-pages-rational" class="paragraph">
-<p><code>E.3.3</code>
-The rational for requirement <a href="#e3-pages">E.3.2</a> is: in order to have a sufficient distinction from the <a href="https://www.springer.com/series/10028">SpringerBriefs</a>.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_e_4_assumptions">E.4 Assumptions</h3>
-<div id="e4-review" class="paragraph">
-<p><code>E.4.1</code>
-The <a href="#companion">Companion Book</a> will be reviewed by the author of the <a href="#Handbook">Handbook</a>.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_e_5_effects">E.5 Effects</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_e_6_invariants">E.6 Invariants</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_project">Project</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-<div class="title">Front matter</div>
-
-</td>
-</tr>
-</table>
-</div>
-<div class="sect2">
-<h3 id="_p_1_roles_and_personnel">P.1 Roles and personnel</h3>
-<div id="p1-roles" class="paragraph">
-<p><code>1</code>
-Here are the roles for the production of the <a href="#companion">Companion Book</a>:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Leader: The person in charge of leading and organizing the writing effort.</p>
-</li>
-<li>
-<p>Writers: The persons contributing to the writing effort.</p>
-</li>
-<li>
-<p>Reviewers: The persons in charge of reviewing the <a href="#companion">Companion Book</a>.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="https://formalrequirements.github.io/requirements-handbook-companion/#_book_templates">Corresponding Artifact</a></p>
-</div>
-<div id="p1-persons" class="paragraph">
-<p><code>2</code>
-Here are the identified people involved in the development of the <a href="#companion">Companion Book</a>:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Leader: The writing effort of the <a href="#companion">Companion Book</a> is under the responsibility of <a href="https://jmbruel.netlify.app">J.-M. Bruel</a>.</p>
-</li>
-<li>
-<p>Writers: In addition to <a href="https://jmbruel.netlify.app">J.-M. Bruel</a>, here are the persons involved: Sophie Ebersold, Marya Naumchev, Alexandr Naumchev, Florian Galinier</p>
-</li>
-<li>
-<p>Reviewers: In addition to Bertrand Meyer, author of <a href="#Handbook">Handbook</a>, some reviewers will be found among early adopters of <a href="#Handbook">Handbook</a>.</p>
-</li>
-</ul>
-</div>
-<details>
-<summary class="title">TBD</summary>
-<div class="content">
-<div class="dlist">
-<dl>
-<dt class="hdlist1">Author</dt>
-<dd>
-<p><a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p>
-</dd>
-<dt class="hdlist1">Date</dt>
-<dd>
-<p>2021-02-21</p>
-</dd>
-<dt class="hdlist1">Deadline</dt>
-<dd>
-<p>June</p>
-</dd>
-<dt class="hdlist1">Importance</dt>
-<dd>
-<p>serious</p>
-</dd>
-<dt class="hdlist1">Needs</dt>
-<dd>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p><i class="fa fa-square-o"></i> stakeholders to ask</p>
-</li>
-<li>
-<p><i class="fa fa-square-o"></i> documentation to consider</p>
-</li>
-<li>
-<p><i class="fa fa-check-square-o"></i> management decision (by Bertrand Meyer)</p>
-</li>
-</ul>
-</div>
-</dd>
-</dl>
-</div>
-</div>
-</details>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-times-circle"></i></span> [Corresponding Artifact]</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_p_2_imposed_technical_choices">P.2 Imposed technical choices</h3>
-<div id="p2-english" class="paragraph">
-<p><code>1</code>
-The <a href="#companion">Companion Book</a> should be written in English.</p>
-</div>
-<div id="p2-Springer" class="paragraph">
-<p><code>2</code>
-The <a href="#companion">Companion Book</a> should be written in one of the compatible inputs of the publisher, Springer.</p>
-</div>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-times-circle"></i></span> [Corresponding Artifact]</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_p_3_schedule_and_milestones">P.3 Schedule and milestones</h3>
-<div id="p3-date" class="paragraph">
-<p><code>1</code>
-The expected date of the <a href="#companion">Companion Book</a> is the end of June.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_p_4_tasks_and_deliverables">P.4 Tasks and deliverables</h3>
-<div id="p4-repo" class="paragraph">
-<p><code>1</code>
-The tasks are managed through the use of a collaborative repository: <a href="https://github.com/FormalRequirements/requirements-handbook" class="bare">https://github.com/FormalRequirements/requirements-handbook</a>.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_p_5_required_technology_elements">P.5 Required technology elements</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_p_6_risk_and_mitigation_analysis">P.6 Risk and mitigation analysis</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_p_7_requirements_process_and_report">P.7 Requirements process and report</h3>
-<div class="paragraph">
-<p>The production of the <a href="#companion">Companion Book</a> will not follow a particular requirements process.</p>
-</div>
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-<div class="title">Back matter</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">TBD list</dt>
-<dd>
-<p><a href="#p2-persons">[p2-persons]</a>.</p>
-</dd>
-</dl>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_system">System</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_s_1_components">S.1 Components</h3>
-<div class="paragraph">
-<p>The components of the <a href="#companion">Companion Book</a> initially identified are the following:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a id="s1-overview"></a> <code>1</code> An overview of the <b>PEGS</b> method.</p>
-</li>
-<li>
-<p><a id="s1-caseStudies"></a> <code>2</code> At least one case study (<a href="https://formalrequirements.github.io/roboraceRequirements/">Roborace</a>)</p>
-</li>
-<li>
-<p><a id="s1-bookTemplates"></a> <code>3</code> At least one book template</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_s_2_functionality">S.2 Functionality</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> No requirements of this type available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_s_3_interfaces">S.3 Interfaces</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> No requirements of this type available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_s_4_detailed_usage_scenarios">S.4 Detailed usage scenarios</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> No requirements of this type available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_s_5_prioritization">S.5 Prioritization</h3>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-warning"></i></span> No requirements of this type available at this point.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_s_6_verification_and_acceptance_criteria">S.6 Verification and acceptance criteria</h3>
-<div class="paragraph">
-<p>Here are some examples of verification rules currently implemented in the <a href="#companion">Companion Book</a>.</p>
-</div>
-<div id="s6-mutualRefs" class="paragraph">
-<p><code>1</code>
-The books may reference each other, but not arbitrarily.
-The <a href="#mutualRefs">following diagram</a> shows which books may refer to which.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-It only governs the actual contents, ignoring the front and back matter.
-</td>
-</tr>
-</table>
-</div>
-<div id="mutualRefs" class="imageblock">
-<div class="content">
-<img src="links.png" alt="Reference links" width="40%">
-</div>
-<div class="title">Figure 1. Possible references between the books</div>
-</div>
-<div class="paragraph">
-<p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="https://github.com/FormalRequirements/companionRequirements/blob/main/features/book.feature">Corresponding artifact</a></p>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-09-19 15:03:09 +0200
+Last updated 2023-09-19 14:37:56 +0200
 </div>
 </div>
 </body>
