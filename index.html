@@ -875,7 +875,7 @@ The <a href="#companion">Companion Book</a> will be reviewed by the author of th
 <div class="sect2">
 <h3 id="_p_1_roles_and_personnel">P.1 Roles and personnel</h3>
 <div id="p1-roles" class="paragraph">
-<p><code>1</code>
+<p><code>P.1.1</code>
 Here are the roles for the production of the <a href="#companion">Companion Book</a>:</p>
 </div>
 <div class="ulist">
@@ -895,7 +895,7 @@ Here are the roles for the production of the <a href="#companion">Companion Book
 <p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="https://formalrequirements.github.io/requirements-handbook-companion/#_book_templates">Corresponding Artifact</a></p>
 </div>
 <div id="p1-persons" class="paragraph">
-<p><code>2</code>
+<p><code>P.1.2</code>
 Here are the identified people involved in the development of the <a href="#companion">Companion Book</a>:</p>
 </div>
 <div class="ulist">
@@ -959,11 +959,11 @@ Here are the identified people involved in the development of the <a href="#comp
 <div class="sect2">
 <h3 id="_p_2_imposed_technical_choices">P.2 Imposed technical choices</h3>
 <div id="p2-english" class="paragraph">
-<p><code>1</code>
+<p><code>P.2.1</code>
 The <a href="#companion">Companion Book</a> should be written in English.</p>
 </div>
 <div id="p2-Springer" class="paragraph">
-<p><code>2</code>
+<p><code>P.2.2</code>
 The <a href="#companion">Companion Book</a> should be written in one of the compatible inputs of the publisher, Springer.</p>
 </div>
 <div class="paragraph">
@@ -973,14 +973,14 @@ The <a href="#companion">Companion Book</a> should be written in one of the comp
 <div class="sect2">
 <h3 id="_p_3_schedule_and_milestones">P.3 Schedule and milestones</h3>
 <div id="p3-date" class="paragraph">
-<p><code>1</code>
+<p><code>P.3.1</code>
 The expected date of the <a href="#companion">Companion Book</a> is the end of June.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_p_4_tasks_and_deliverables">P.4 Tasks and deliverables</h3>
 <div id="p4-repo" class="paragraph">
-<p><code>1</code>
+<p><code>P.4.1</code>
 The tasks are managed through the use of a collaborative repository: <a href="https://github.com/FormalRequirements/requirements-handbook" class="bare">https://github.com/FormalRequirements/requirements-handbook</a>.</p>
 </div>
 </div>
@@ -998,8 +998,9 @@ The tasks are managed through the use of a collaborative repository: <a href="ht
 </div>
 <div class="sect2">
 <h3 id="_p_7_requirements_process_and_report">P.7 Requirements process and report</h3>
-<div class="paragraph">
-<p>The production of the <a href="#companion">Companion Book</a> will not follow a particular requirements process.</p>
+<div id="p7-process" class="paragraph">
+<p><code>P.7.1</code>
+The production of the <a href="#companion">Companion Book</a> will not follow a particular requirements process.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1013,7 +1014,13 @@ The tasks are managed through the use of a collaborative repository: <a href="ht
 <dl>
 <dt class="hdlist1">TBD list</dt>
 <dd>
-<p><a href="#p2-persons">[p2-persons]</a>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#p1-persons">P.1.2</a>.</p>
+</li>
+</ul>
+</div>
 </dd>
 </dl>
 </div>
@@ -1029,8 +1036,9 @@ The tasks are managed through the use of a collaborative repository: <a href="ht
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_s_1_components">S.1 Components</h3>
-<div class="paragraph">
-<p>The components of the <a href="#companion">Companion Book</a> initially identified are the following:</p>
+<div id="s1-comp" class="paragraph">
+<p><code>S.1.1</code>
+The components of the <a href="#companion">Companion Book</a> initially identified are the following:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1072,12 +1080,16 @@ The tasks are managed through the use of a collaborative repository: <a href="ht
 </div>
 <div class="sect2">
 <h3 id="_s_6_verification_and_acceptance_criteria">S.6 Verification and acceptance criteria</h3>
-<div class="paragraph">
-<p>Here are some examples of verification rules currently implemented in the <a href="#companion">Companion Book</a>.</p>
+<div id="s6-rules" class="paragraph">
+<p><code>S.6.1</code>
+Here are some examples of verification rules currently implemented in the <a href="#companion">Companion Book</a>.</p>
 </div>
 <div id="s6-mutualRefs" class="paragraph">
-<p><code>1</code>
-The books may reference each other, but not arbitrarily.
+<p><code>S.6.2</code>
+The books may reference each other, but not arbitrarily.</p>
+</div>
+<div id="s6-mutualRefsFig" class="paragraph">
+<p><code>S.6.3</code>
 The <a href="#mutualRefs">following diagram</a> shows which books may refer to which.</p>
 </div>
 <div class="admonitionblock note">
@@ -1096,7 +1108,7 @@ It only governs the actual contents, ignoring the front and back matter.
 <div class="content">
 <img src="links.png" alt="Reference links" width="40%">
 </div>
-<div class="title">Figure 1. Possible references between the books</div>
+<div class="title">Figure 1. <code>S.6.4</code>: Possible references between the books</div>
 </div>
 <div class="paragraph">
 <p><span class="icon"><i class="fa fa-check-circle"></i></span> <a href="https://github.com/FormalRequirements/companionRequirements/blob/main/features/book.feature">Corresponding artifact</a></p>

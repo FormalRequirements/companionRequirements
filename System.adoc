@@ -16,6 +16,9 @@ include::definitions.adoc[]
 
 === S.1 Components
 
+:s1-comp: S.1.{counter:s1}
+[[s1-comp]]
+`{s1-comp}`
 The components of the {companion} initially identified are the following:
 
 - [[s1-overview]] `{counter:s1}` An overview of the {Method} method.
@@ -40,18 +43,27 @@ The components of the {companion} initially identified are the following:
 
 === S.6 Verification and acceptance criteria
 
+:s6-rules: S.6.{counter:s6}
+[[s6-rules]]
+`{s6-rules}`
 Here are some examples of verification rules currently implemented in the {companion}.
 
 //---- Requirement
+:s6-mutualRefs: S.6.{counter:s6}
 [[s6-mutualRefs]] 
-`{counter:s6}`
+`{s6-mutualRefs}`
 The books may reference each other, but not arbitrarily. 
+
+:s6-mutualRefsFig: S.6.{counter:s6}
+[[s6-mutualRefsFig]] 
+`{s6-mutualRefsFig}`
 The <<mutualRefs,following diagram>> shows which books may refer to which. 
 
 NOTE: It only governs the actual contents, ignoring the front and back matter.
 
+:s6-mutualFig: S.6.{counter:s6}
 [[mutualRefs]]
-.Possible references between the books
+.`{s6-mutualFig}`: Possible references between the books
 image::links.png[Reference links, width=40%, pdfwidth=40%]
 
 {check} https://github.com/FormalRequirements/companionRequirements/blob/main/features/book.feature[Corresponding artifact]

@@ -25,7 +25,7 @@
 === P.1 Roles and personnel
 
 //---- Requirement
-:p1-roles: {counter:p1}
+:p1-roles: P.1.{counter:p1}
 [[p1-roles]]
 `{p1-roles}`
 Here are the roles for the production of the {companion}:
@@ -37,7 +37,7 @@ Here are the roles for the production of the {companion}:
 {check} {companionURL}/#_book_templates[Corresponding Artifact]
 
 //---- Requirement
-:p1-persons: {counter:p1}
+:p1-persons: P.1.{counter:p1}
 [[p1-persons]]
 `{p1-persons}`
 Here are the identified people involved in the development of the {companion}:
@@ -66,13 +66,13 @@ Needs::
 === P.2 Imposed technical choices
 
 //---- Requirement
-:p2-english: {counter:p2}
+:p2-english: P.2.{counter:p2}
 [[p2-english]]
 `{p2-english}`
 The {companion} should be written in English.
 
 //---- Requirement
-:p2-Springer: {counter:p2}
+:p2-Springer: P.2.{counter:p2}
 [[p2-Springer]]
 `{p2-Springer}`
 The {companion} should be written in one of the compatible inputs of the publisher, Springer.
@@ -82,7 +82,7 @@ The {companion} should be written in one of the compatible inputs of the publish
 === P.3 Schedule and milestones
 
 //---- Requirement
-:p3-date: {counter:p3}
+:p3-date: P.3.{counter:p3}
 [[p3-date]]
 `{p3-date}`
 The expected date of the {companion} is the end of June.
@@ -90,7 +90,7 @@ The expected date of the {companion} is the end of June.
 === P.4 Tasks and deliverables
 
 //---- Requirement
-:p4-repo: {counter:p4}
+:p4-repo: P.4.{counter:p4}
 [[p4-repo]]
 `{p4-repo}`
 The tasks are managed through the use of a collaborative repository: {companionGit}. 
@@ -105,6 +105,10 @@ The tasks are managed through the use of a collaborative repository: {companionG
 
 === P.7 Requirements process and report
 
+//---- Requirement
+:p7-process: P.7.{counter:p7}
+[[p7-process]]
+`{p7-process}`
 The production of the {companion} will not follow a particular requirements process. 
 
 .Back matter
@@ -116,6 +120,8 @@ The production of the {companion} will not follow a particular requirements proc
 // glossary, which is part of the contents, as section E.1.)
 // Copyright notice, distribution information, restrictions on distribution.
 // Approval information. 
-TBD list:: <<p2-persons>>.
+TBD list:: 
+
+- <<p1-persons, {p1-persons}>>.
 ====
 
