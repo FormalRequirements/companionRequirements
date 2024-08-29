@@ -1,39 +1,5 @@
-Given /^The ([^"]+) book/ do |book|
-    $source = "#{book}.adoc"
-  end
-  
-  Then('P3 chapter must not be empty') do
-    f = File.new($source)
-    text = f.read
-    expect(text =~ /=== P.3 Schedule and milestones
-
-      {emtysec}/).to be nil
-  end
-
-  Then('P4 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  Then('E3 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  Then('G1 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  Then('G3 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  Then('G7 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  Then('S1 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  Then('S2 chapter must not be empty') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
+Then /([^"]+) chapter must not be empty/ do |chapter|
+  f = File.new($source)
+  text = f.read
+  expect(text =~ /^=== #{chapter} .*?\s*\n\{emptysec\}$/).to be nil
+end
