@@ -1,8 +1,8 @@
 //--------------------------- Glossary & Definitions
 // URLS
-:companionURL: https://formalrequirements.github.io/requirements-handbook-companion
-:HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
-:companionGit: https://github.com/FormalRequirements/requirements-handbook
+:companionURL: https://requirements.university/
+:HandbookPDF: https://link.springer.com/content/pdf/10.1007/978-3-031-06739-6.pdf
+:companionGit: https://requirements.university/
 :Roborace: https://formalrequirements.github.io/roboraceRequirements/[Roborace]
 :requirementsURL: https://formalrequirements.github.io/companionRequirements
 

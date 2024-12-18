@@ -7,7 +7,7 @@
 :favicon: images/pegs.png
 
 :method: pass:[<b>PEGS</b>]
-:hb-pdf: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
+:hb-pdf: https://link.springer.com/content/pdf/10.1007/978-3-031-06739-6.pdf
 :hb-title: Handbook of requirements and business analysis
 :hb-url: http://requirements-handbook.org/
 :cb-url: https://docs.google.com/document/d/1HrWCRzyW_iTf1QXFFzEoDvvc66IzMCDb3uXGS5GRWz8/edit?usp=sharing
@@ -26,7 +26,7 @@ endif::[]
 
 ifndef::pdf-backend[]
 //------------------------------------ Badges --------
-//image:https://github.com/FormalRequirements/requirements-handbook/workflows/Check%20Markdown%20links/badge.svg[Check Markdown links,link="https://github.com/FormalRequirements/requirements-handbook/actions"]
+//image:https://requirements.university//workflows/Check%20Markdown%20links/badge.svg[Check Markdown links,link="https://requirements.university//actions"]
 image:https://github.com/FormalRequirements/companionRequirements/actions/workflows/bdd.yml/badge.svg[Tests, link="https://github.com/FormalRequirements/companionRequirements/actions/workflows/bdd.yml"]
 image:https://img.shields.io/badge/License-MIT-yellow.svg[License: MIT, link="https://opensource.org/licenses/MIT"]
 image:https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod[Gitpod ready-to-code ,link="https://gitpod.io/#https://github.com/FormalRequirements/companionRequirements"]

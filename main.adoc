@@ -1,6 +1,6 @@
 :title: Companion Requirements
 :project: Project
-:version: 1.2.6
+:version: 1.3
 :author: J.-M. Bruel
 :email: bruel@irit.fr
 :organization: IRIT/CNRS - University of Toulouse, France
@@ -22,9 +22,9 @@ endif::[]
 
 //--------------------------- Glossary & Definitions
 // URLS
-:companionURL: https://formalrequirements.github.io/requirements-handbook-companion
-:HandbookPDF: http://se.ethz.ch/~meyer/down/requirements_handbook/REQUIREMENTS.pdf
-:companionGit: https://github.com/FormalRequirements/requirements-handbook
+:companionURL: https://requirements.university/
+:HandbookPDF: https://link.springer.com/content/pdf/10.1007/978-3-031-06739-6.pdf
+:companionGit: https://requirements.university/
 :emptysec: icon:warning[] Nothing available at this point.
 // ICONS
 :check: icon:check-circle[]
